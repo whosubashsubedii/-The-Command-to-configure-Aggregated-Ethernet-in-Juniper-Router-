@@ -14,7 +14,7 @@ set interfaces ae{aggregated_ethernet} unit {vlan} vlan-id {vlan}
 set interfaces ae{aggregated_ethernet} unit {vlan} family vpls
 set routing-instances {vpls_name} interface ae{aggregated_ethernet}.{vlan}
 set routing-instances {vpls_name} protocols vpls vpls-id {vlan}
-set routing-instances {vpls_name} description "{vpls_name}"
+set routing-instances {vpls_name} description {vpls_name}
 set routing-instances {vpls_name} instance-type vpls
 set routing-instances {vpls_name} protocols vpls no-tunnel-services
 set routing-instances {vpls_name} protocols vpls vpls-id {vlan}
